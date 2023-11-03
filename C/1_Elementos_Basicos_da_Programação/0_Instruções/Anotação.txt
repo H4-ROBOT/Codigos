@@ -1,0 +1,62 @@
+
+* Represetação da memoria ram abaixo:
+
+* Endereço :
+- 999999
+- 1000003
+- 1000007
+- 1000008
+- 1000009
+- 1000013
+* Valor :
+- 0
+- 0
+- 5
+- 'c'
+- 8.5
+- 3
+
+* Tipos de dados C : 
+(Tipo | Tipo em C | Valores válidos | Espaço necessário)
+
+- inteiro > int > -32767 a +326767 > 2 bytes
+- inteiro(só que maiores) > long int > -2147483647 a +2147483647 > 4 bytes
+- caractere > char > qualquer caractere > 1 byte
+- real > float > 2.elevado-37 a 2.elevado +37 > 4 bytes
+- real(só que mais preciso) > double > 2.elevado -37 a 2.elevado +37 > 8 bytes
+
+
+* Tipos de dados a serem lidos no scanf:
+
+Tipo:
+- int
+- long int
+- char
+- float
+- double
+Especificador do formato:
+- %d
+- %ld
+- %c
+- %f
+- %lf
+
+* Operadores Aritmeticos : 
+
+Operação | Símbolo | Sintaxe | Explicação
+
+- Adição > + > a+b > Retorna a soma dos numeros A e B.
+- Subtração > - > a-b > Retorna a diferença entre os números A e B.
+- Multiplicação > * > a*b > Retorna a multiplicação entre os números A e B.
+- Divisão > / > a/b > Retorna a divisão entre os números A e B.
+Nesse caso,se tanto A quanto B forem do tipo inteiro, então a divisão 
+será uma divisão inteira. 
+Por Exemplo: 12/5 dará como resultado 2 e não 2.4. 
+Para realizar uma divisão com numeros fracionarios, é preciso que pelo
+menos 1 dos valores seja do tipo float, por exemplo.
+12.0/5 dará como resultado 2.4 pois o primeiro número é 12.0, 
+portanto é float.
+- Resto > % > a % b > Retorna o resto da divisão entre A e B.
+Tanto A quanto B precisam ser inteiros.
+Por exemplo: 17 % 5 retornará 2 como resposta.
+
