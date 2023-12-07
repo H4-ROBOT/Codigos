@@ -26,5 +26,4 @@ int main(){
 
      printf("dado *=10;  \nDepois de multiplicar por 10 :%d.\n", dado);
 
-
 }
